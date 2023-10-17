@@ -34,7 +34,6 @@ public class AddYour implements Task {
                 DoubleClick.on(UTestAddressPage.CITY_TEXT),
                 SendKeys.of(userData.getStrCity()).into(UTestAddressPage.CITY_TEXT),
                 SendKeys.of(Keys.ARROW_DOWN, Keys.ENTER).into(UTestAddressPage.CITY_TEXT),
-
                 SendKeys.of(Keys.ENTER).into(UTestAddressPage.CITY_TEXT),
 
                 DoubleClick.on(UTestAddressPage.ZC_TEXT),
